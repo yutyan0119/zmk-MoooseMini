@@ -93,8 +93,8 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp C_MUTE                &lt_to_layer_0 1 ESC
-                &mkp LCLK   &mkp RCLK     &lt_to_layer_0 2 ENTER
+                &kp C_MUTE                &lt_to_layer_0 1 C_AC_BACK
+                &mkp LCLK   &mkp RCLK     &lt_to_layer_0 2 C_AC_FORWARD
                 &mkp MCLK   &kp BACKSPACE &lt_to_layer_0 3 SPACE
                                           &lt_to_layer_0 4 ESC
             >;
