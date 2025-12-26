@@ -103,7 +103,7 @@
         UPPER {
             bindings = <
                 &kp 1                           &kp ESC
-                &kp LC(LS(TAB))   &kp LC(T)     &kp ENTER
+                &kp LCLK   &kp RCLK     &kp ENTER
                 &kp LC(W)         &kp LC(TAB)   &kp SPACE
                                                 &none
             >;
