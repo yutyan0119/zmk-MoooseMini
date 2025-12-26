@@ -93,9 +93,9 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp C_MUTE                &lt_to_layer_0 1 C_AC_BACK
-                &mkp LCLK   &mkp RCLK     &lt_to_layer_0 2 C_AC_FORWARD
-                &mkp MCLK   &kp BACKSPACE &lt_to_layer_0 3 SPACE
+                &kp C_MUTE                &lt_to_layer_0 2 C_AC_BACK
+                &mkp LCLK   &mkp RCLK     &lt_to_layer_0 3 C_AC_FORWARD
+                &mkp MCLK   &kp BACKSPACE &lt_to_layer_0 1 SPACE
                                           &lt_to_layer_0 4 ESC
             >;
             sensor-bindings = <&mouse_scroll SCRL_DOWN SCRL_UP>;
@@ -112,7 +112,7 @@
         MID {
             bindings = <
                 &kp 2                      &kp ESC
-                &kp LEFT     &kp UP        &kp ENTER
+                &kp LCLK     &kp RCLK        &kp ENTER
                 &kp DOWN     &kp RIGHT     &kp SPACE
                                            &none
             >;
